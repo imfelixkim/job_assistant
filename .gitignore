@@ -1,0 +1,9 @@
+# OMC state (oh-my-claudecode)
+.omc/
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
