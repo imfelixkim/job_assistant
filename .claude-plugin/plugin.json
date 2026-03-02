@@ -6,6 +6,7 @@
     "name": "Felix",
     "url": "https://github.com/imfelixkim"
   },
+  "homepage": "https://github.com/imfelixkim/job_assistant",
   "repository": "https://github.com/imfelixkim/job_assistant",
   "license": "MIT",
   "keywords": ["resume", "job", "career", "korean", "이력서", "채용"],
