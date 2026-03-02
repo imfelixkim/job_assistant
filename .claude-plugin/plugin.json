@@ -1,0 +1,14 @@
+{
+  "name": "job-assistant",
+  "version": "1.0.0",
+  "description": "채용공고 분석 + 맞춤 이력서 최적화 워크플로우",
+  "author": {
+    "name": "Felix",
+    "url": "https://github.com/imfelixkim"
+  },
+  "repository": "https://github.com/imfelixkim/job_assistant",
+  "license": "MIT",
+  "keywords": ["resume", "job", "career", "korean", "이력서", "채용"],
+  "agents": "./agents/",
+  "skills": "./skills/"
+}
