@@ -1,10 +1,19 @@
 # job-assistant
 
-> 채용공고 분석 + 맞춤 이력서 최적화 워크플로우 — Claude Code 플러그인
+> 채용공고 분석 + 맞춤 이력서 최적화 워크플로우 — Claude 플러그인
 
 채용공고를 입력하면, AI가 기업 리서치 → 공고 분석 → 매칭 분석 → 이력서 최적화 → 4관점 리뷰까지 11단계 대화형 워크플로우로 진행합니다.
 
+## 지원 환경
+
+| 환경 | 설치 방법 | 요금제 |
+|------|----------|--------|
+| **Claude Code** (CLI) | `claude plugin add` 또는 `--plugin-dir` | 무료 |
+| **Claude Desktop** (Cowork) | Customize → Browse plugins | Pro / Max / Team / Enterprise |
+
 ## 설치
+
+### Claude Code
 
 ```bash
 claude plugin add https://github.com/imfelixkim/job_assistant
@@ -16,6 +25,13 @@ claude plugin add https://github.com/imfelixkim/job_assistant
 git clone https://github.com/imfelixkim/job_assistant.git
 claude --plugin-dir ./job_assistant
 ```
+
+### Claude Desktop (Cowork)
+
+1. Claude Desktop 앱에서 **Cowork** 탭으로 이동
+2. 좌측 사이드바에서 **Customize** 클릭
+3. **+** 버튼 → **Add marketplace from GitHub** 선택
+4. `imfelixkim/job_assistant` 입력
 
 ## 스킬 (3개)
 
